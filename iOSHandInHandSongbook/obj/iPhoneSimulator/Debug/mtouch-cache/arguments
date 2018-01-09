@@ -1,0 +1,41 @@
+# Version: 8.10.1.64 (e6ebd18)
+# [first argument, ignore] # /Users/gotim11/Projects/iOSHandInHandSongbook/iOSHandInHandSongbook/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.1.64/bin/mtouch \
+	--cache \
+	/Users/gotim11/Projects/iOSHandInHandSongbook/iOSHandInHandSongbook/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/gotim11/Projects/iOSHandInHandSongbook/iOSHandInHandSongbook/bin/iPhoneSimulator/Debug/iOSHandInHandSongbook.app \
+	--executable \
+	iOSHandInHandSongbook \
+	--debug \
+	--profiling \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.1 \
+	--targetver \
+	8.0 \
+	--abi=i386 \
+	--symbollist \
+	/Users/gotim11/Projects/iOSHandInHandSongbook/iOSHandInHandSongbook/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Mono.Data.Sqlite.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Data.dll \
+	-r \
+	/Users/gotim11/Projects/iOSHandInHandSongbook/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/gotim11/Projects/iOSHandInHandSongbook/packages/Newtonsoft.Json.7.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	/Users/gotim11/Projects/iOSHandInHandSongbook/iOSHandInHandSongbook/bin/iPhoneSimulator/Debug//iOSHandInHandSongbook.exe \
